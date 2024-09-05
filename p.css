@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.top-pane {
+    background-color: #333;
+    color: white;
+    padding: 1.5vh 0;
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0.5vh 1vh black;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 1vh 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 5vh;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+nav ul li a:hover {
+    color: grey;
+}
+
+section {
+    padding: 1vw 2vw;
+}
+
+
+
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 250px; 
+    height: 250px;
+    border-radius: 50%; 
+    margin-bottom: 4vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.home-content h2 {
+    font-size: 6vh;
+    margin: 4vh 0;
+}
+
+.home-content p {
+    font-size: 4vh;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+
+
+
+
+#projects {
+    background-color: white; /* Slightly greyish background */
+    padding: 60px 20px;
+}
+
+.projects-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.projects-content h1 {
+    font-size: 6vh;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.projects-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.projects-content ul li {
+    margin-bottom: 30px;
+}
+
+.projects-content ul li h3 {
+    font-size: 4vh;
+    margin-bottom: 10px;
+}
+
+.projects-content ul li p {
+    font-size: 3vh;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.projects-content ul li a {
+    font-size: 2.8vh;
+    color: #333;
+    text-decoration: none;
+}
+
+.projects-content ul li a i {
+    margin-right: 8px;
+}
+
+.projects-content ul li a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+
+
+/* Education Section */
+#education {
+    background-color: #f9f9f9; /* White background to separate it from projects */
+    padding: 60px 20px;
+}
+
+.education-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.education-content h1 {
+    font-size: 6vh;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.education-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.education-content ul li {
+    margin-bottom: 30px;
+}
+
+.education-content ul li h3 {
+    font-size: 4vh;
+    margin-bottom: 5px;
+}
+
+.education-content ul li p {
+    font-size: 3vh;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+
+
+
+#experience {
+    background-color: #f9f9f9; /* Same slightly greyish background as projects */
+    padding: 60px 20px;
+}
+
+.experience-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center; /* Center the content */
+}
+
+.experience-content h1 {
+    font-size: 6vh;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.experience-item {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.experience-logo {
+    width: 10vh;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto; /* Center the logo */
+}
+
+.experience-details {
+    text-align: center; /* Ensure the text is centered under the logo */
+}
+
+.experience-details h3 {
+    font-size: 4vh;
+    margin-bottom: 10px;
+}
+
+.experience-details p {
+    font-size: 3vh;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.experience-summary {
+    text-align: justify;
+}
+
+
+
+
+
+
+/* About Me Section */
+#about {
+    background-color: white; /* Slight grey background to match other sections */
+    padding: 60px 20px;
+    text-align: center; /* Center the text */
+}
+
+.about-content {
+    max-width: 800px; /* Restrict content width */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+.about-content h1 {
+    font-size: 6vh;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 3vh;
+    color: #555;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Styling */
+#footer {
+    background-color: #f9f9f9; /* Slightly grey background to match the style */
+    padding: 40px 20px;
+    text-align: center; /* Center the content */
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.footer-content a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
